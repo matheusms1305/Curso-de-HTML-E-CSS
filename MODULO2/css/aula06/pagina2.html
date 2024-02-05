@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        span{
+            color: yellow;
+            background-color: blue;
+        }
+       p >  span{
+            color: yellow;
+            display:block;
+            background-color: green;
+
+        }
+        h1{
+            
+            /*shorthand: padding: 10px 10px 10px 10px = pading: 10px*/
+            padding: 10px;
+            width: 300px;
+            height: 300px;
+            background-color: antiquewhite;
+            border: 10px solid darkslategray;
+            margin: 20px auto 40px auto;
+            /*shorthand*/
+            outline: 3px dashed blue;
+        }
+        a{
+            display: block;
+            border: 10px solid red;
+            padding: 5px;
+
+        }
+
+    </style>
+</head>
+<body>
+        <h1>Exemplo de caixa box-level</h1>
+        <p>paragrafos tambem sao exemplos de box-level, mas os <a href="">links sao exemplo de caixasinline-level</a>Vamos ver como isso tudo funciona</p>
+        <span>nao sao exemplos de caixas</span>
+        
+        <p><span>sao exemplo de caixas</span></p>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de população</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+
+    </style>
+</head>
+<body>
+        <table>
+            <caption>População das Unidades Federativas</caption>
+            <thead>
+                <tr>
+                    <th>Estado</th>
+                    <th>População</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>São Paulo</td>
+                    <td>45 919 049</td>
+
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>21 168 791</td>
+                </tr>
+
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>17 264 943</td>
+                </tr>
+
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total de Habitantes</td>
+                    <td> <script>
+                        var a = 45919049 + 21168791 + 17264943;
+                        var resultado = Number(a)
+                        document.write(a)
+                    </script></td>
+                </tr>
+
+            </tfoot>
+
+
+        </table>
+        <div>
+
+            <style type="text/css">
+                p{
+                    background-color: blue;
+                }
+            </style>
+            <p>teste</p>
+
+        </div>
+        
+
+
+</body>
+</html>
